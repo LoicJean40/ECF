@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../ECF normal/assets/css/Esportify contact.css">
+</head>
+
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="./assets/librairie/logos/logo principal.png" alt="Logo du site">
+            <nav class="nav">
+                <li><a href="Esportify accueil.html">Accueil</a></li>
+                <li><a href="Esportify evenements.html">Evenements</a></li>
+                <li><a href="Esportify contact.html">Contact</a></li>
+                <li><a href="Esportify connexion.html">Connexion</a></li>
+            </nav>
+        </header>
+    </section>
+
+    <form id="formulaire">
+        <fieldset id="infos">
+            <legend><h2>Informations</h2></legend>
+
+            <div id="div_nm">
+                <label for="name">Nom :</label><input type="text" name="nom" id="name" required>
+            </div>
+
+            <div id="div_fnm">
+                <label for="firstname">Prenom :</label><input type="text" name="prenom" id="firstname" required>
+            </div>
+            
+            <div>
+                <label for="email">Email :</label><input type="email" id="email" name="email" required>
+            </div>
+
+
+        </fieldset>
+
+        <fieldset id="message">
+            <legend><h2>Message</h2></legend>
+
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p class="copyright">&copy; 2025 - Esportify</p>
+        <a href="" class="cgv">Conditions générales</a>
+    </footer>
+
+</body>
+</html>
