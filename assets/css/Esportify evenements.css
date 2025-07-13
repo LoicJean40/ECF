@@ -1,0 +1,148 @@
+ @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+ 
+ html {
+    width: 100%;
+    font-family: 'Montserrat';
+    color: hsl(0, 0%, 0%);
+}
+
+ body {
+     margin: 0 auto;
+ }
+
+ /* Début Header */
+ 
+ header.header {
+     display: flex;
+     align-items: center;
+ }
+ 
+ header.header img {
+     width: 150px;
+ }
+ 
+ section.top-page {
+     background-color: black;
+     background-size: cover;
+     height: 10vh;
+     padding: 25px;
+ }
+ 
+ /* menu de navigation */
+ 
+ nav.nav {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     width: 400px;
+     margin-left: 30px;
+ }
+ 
+ nav.nav li a {
+     color: white;
+     text-decoration: none;
+ }
+
+ /* Fin header */
+
+ /* Section evenements et titres */
+ 
+ .section-title {
+     font-size: 50px;
+     font-weight: 500;
+     position: relative;
+ }
+ 
+ .section-title::before {
+     content: "";
+     position: absolute;
+     background-color: black;
+     width: 50px;
+     height: 7px;
+     bottom: 0;
+ }
+ 
+ .bests-events {
+     margin: 100px;
+ }
+ 
+ .evenements {
+     min-height: 500px;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .boite {
+     position: relative;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .no-grid {
+     min-width: 350px;
+     height: 500px;
+     flex: 1;
+ }
+ 
+ .image1 {
+     background-image: url(../librairie/images/nfs.jpg);
+ }
+ 
+ .image2 {
+     background-image: url(../librairie/images/cod.jpg);
+ }
+ 
+ .image3 {
+     background-image: url(../librairie/images/fifa.jpg);
+ }
+
+ .image4 {
+     background-image: url(../librairie/images/nfs.jpg);
+ }
+
+ .image5 {
+     background-image: url(../librairie/images/cod.jpg);
+ }
+
+ .image6 {
+     background-image: url(../librairie/images/fifa.jpg);
+ }
+
+  
+ .details {
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     background-color: #FFFFFFDF;
+     padding: 5px 20px;
+ }
+ 
+ .etat {
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 3px;
+ }
+ 
+ .support {
+     color: black;
+     line-height: 3px;
+     font-size: 14px;
+     font-weight: normal;
+ }
+
+  /* pied de page */
+ 
+ footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px 100px;
+     font-weight: 600;
+ }
+ 
+ footer a.cgv {
+     text-decoration: none;
+     color: black;
+ }
+
+  /* Fin pied de page */
