@@ -1,18 +1,17 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
- 
- * {
-     font-family: 'Montserrat';
- }
- 
+  
  html {
-     scroll-behavior: smooth;
- }
- 
+    scroll-behavior: smooth;
+    width: 100%;
+    font-family: 'Montserrat';
+    color: hsl(0, 0%, 0%);
+}
+
  body {
      margin: 0 auto;
  }
  
- /* tete de page */
+ /* Début header */
  
  header.header {
      display: flex;
@@ -28,6 +27,16 @@
      background-size: cover;
      height: 40vh;
      padding: 25px;
+ }
+
+ #mykeyword {
+    background-color: white;
+    border-radius: 30px;
+    height: 25px;
+    border: 0px;
+    margin-left: 650px;
+    font-size: 1em;
+    padding: 0.2%;
  }
  
  /* page de bienvenue */
@@ -73,7 +82,7 @@
      position: absolute;
      background-color: black;
      width: 50px;
-     height: 7px;
+     height: 2px;
      bottom: 0;
  }
  
@@ -115,6 +124,10 @@
      background-image: url(../librairie/images/24.jpg);
  }
  
+  .image5 {
+     background-image: url(../librairie/images/nintendo.jpg);
+ }
+
  .details {
      position: absolute;
      width: 100%;

@@ -27,7 +27,17 @@
      height: 10vh;
      padding: 25px;
  }
- 
+
+  #mykeyword {
+    background-color: white;
+    border-radius: 30px;
+    height: 25px;
+    border: 0px;
+    margin-left: 650px;
+    font-size: 1em;
+    padding: 0.2%;
+ }
+
  /* menu de navigation */
  
  nav.nav {
@@ -58,7 +68,7 @@
      position: absolute;
      background-color: black;
      width: 50px;
-     height: 7px;
+     height: 2px;
      bottom: 0;
  }
  
@@ -93,7 +103,7 @@
  }
  
  .image3 {
-     background-image: url(../librairie/images/fifa.jpg);
+     background-image: url(../librairie/images/1.jpg);
  }
 
  .image4 {
@@ -108,6 +118,17 @@
      background-image: url(../librairie/images/fifa.jpg);
  }
 
+.image7 {
+     background-image: url(../librairie/images/nfs.jpg);
+ }
+
+ .image8 {
+     background-image: url(../librairie/images/cod.jpg);
+ }
+
+ .image9 {
+     background-image: url(../librairie/images/fifa.jpg);
+ }
   
  .details {
      position: absolute;
@@ -130,7 +151,9 @@
      font-weight: normal;
  }
 
-  /* pied de page */
+  /* Fin section evenements et titres */
+
+  /* Pied de page */
  
  footer {
      display: flex;
